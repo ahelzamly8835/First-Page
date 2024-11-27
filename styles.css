@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background: rgb(19,133,105);
+    background: linear-gradient(128deg, rgba(19,133,105,1) 33%, rgba(69,0,71,1) 100%);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.hed{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 15px;
+}
+ul{
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+a{
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+.hed h1{
+    margin-left:50px;
+    font-size: 40px;
+}
+.contener{
+    color: #ffffff;
+}
+.contener h2{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 70px;
+    width: 50%;
+}
+.contener p{
+    margin-left:50px ;
+    letter-spacing: 2px;
+    font-size: 18px;
+    width: 600px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.button-34 {
+    margin-left: 50px;
+    margin-top: 18px;
+    background: rgba(69,0,71,1) 100%;
+    border-radius: 999px;
+    box-shadow: hsl(323, 92%, 25%) 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: none;
+}
+.button-34:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid;
+}
+.hed a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+.social-icons {
+    position: fixed; /* جعلها ثابتة في مكانها */
+    bottom: 20px; /* المسافة من الأسفل */
+    right: 90px; /* المسافة من اليمين */
+    display: flex;
+    gap: 70px; /* المسافة بين الأيقونات */
+}
+
+.social-icons a {
+    color: #fff; /* لون الأيقونات */
+    font-size: 30px; /* حجم الأيقونات */
+    text-decoration: none; /* إزالة التسطير */
+}
+
+.social-icons a:hover {
+    color: #ccc; /* لون الأيقونة عند التمرير */
+}
+.fac :hover{
+color:  rgb(20, 27, 255);
+}
+.whats :hover{
+    color: rgb(20, 252, 20);
+}
+.twit :hover{
+    color: rgb(23, 27, 255);
+    }
+
+
+
+
+
+
+
+
+
+
